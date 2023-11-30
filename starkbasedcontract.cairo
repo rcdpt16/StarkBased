@@ -12,7 +12,7 @@ mod HelloStarknetDefiNet {
     #[external]
     fn Say_Goodbye(message: felt252) {
         let caller = get_caller_address();
-        Hello(caller, message);
+        HelloGoodbye(caller, message);
     }
 
 }
