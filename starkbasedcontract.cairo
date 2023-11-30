@@ -6,7 +6,7 @@ mod HelloStarknetDefiNet {
 
 
     #[event]
-    fn Goodbye(from: ContractAddress, value: felt252) {}
+    fn GoodbyeRaw(from: ContractAddress, value: felt252) {}
 
 
     #[external]
