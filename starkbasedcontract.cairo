@@ -1,6 +1,6 @@
 
 #[contract]
-mod HelloStarknetDefi {
+mod HelloStarknetDefiNet {
     use starknet::get_caller_address;
     use starknet::ContractAddress;
 
